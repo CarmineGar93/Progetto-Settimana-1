@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65rem;
+    text-align: center;
+    width: 100%;
+}
+
+h1,
+h4 {
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 2.3rem;
+}
+
+.footer,
+.contatti a:link,
+.contatti a:visited {
+    color: #c8e7f0;
+}
+
+h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    text-align: left;
+}
+
+.header img {
+    width: 20%;
+    margin: 20px;
+    
+
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    
+    padding: 40px 100px;
+    background-position: top;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.banner div a {
+    display: inline-block;
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    margin:0 0 60px;
+}
+
+.banner div p {
+    margin-bottom: 20px;
+}
+
+.banner div a:link,
+.banner div a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.banner div a:hover {
+    text-decoration: underline;
+}
+
+
+.benefitsimg, .benefitstext {
+    width: 45%;
+    display: inline-block;
+}
+
+.benefits h4 {
+    margin: 0;
+}
+
+.benefitsimg img {
+    border-radius: 50%;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.benefits {
+    padding: 100px 0;
+}
+
+.benefitstext {
+    text-align: left;
+}
+
+.benefitstext p {
+    margin-top: 0;
+}
+
+.citazione {
+    background-color: #f04c2f;
+    color: white;
+    padding: 40px 15px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.citazione cite {
+    display: block;
+    font-style: normal;
+    margin: 40px 0 0;
+}
+
+.citazione cite span {
+    font-size: 1.3em;
+    display: block;
+    margin: 5px 0;
+}
+
+.advantage img {
+    width: 100%;
+    height: 220px;
+}
+
+.advantage div {
+    margin: 40px 5px;
+    border: 1px solid #dee1e3;
+    border-radius: 0 0 5px 5px;
+    display: inline-block;
+    width: 27%;
+}
+
+.advantage h4 {
+    margin: 5px 0 0;
+}
+
+.advantage p {
+    margin: 0 5px 30px;
+}
+
+.footer {
+    background-color: #25a2c3;
+    padding: 30px 100px;
+}
+
+.footer h2 {
+    text-align: left;
+}
+.footercont {
+    width: 38%;
+    margin: 0 auto;
+}
+
+.contatti {
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: left;
+}
+
+.footercont p {
+    margin-top: 30px;
+    border-top: 1px solid white;
+    padding: 30px 0;
+}
+
+.footercont p span {
+    text-decoration: underline;
+}
